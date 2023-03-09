@@ -580,6 +580,7 @@ footer{
         height: 45px;
         font-size: 12px;
         line-height: 15px;
+        filter: none;
     }
     .steps{
         flex-direction: column;
