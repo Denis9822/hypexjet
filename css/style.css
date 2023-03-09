@@ -45,6 +45,10 @@ body::-webkit-scrollbar-thumb {
     height: 133px;
     margin-left: auto;
 }
+.logo img{
+    width: 100%;
+    height: auto;
+}
 .height_change{
     min-height: calc(100vh - 206px);
 }
