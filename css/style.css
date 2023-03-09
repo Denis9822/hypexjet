@@ -30,11 +30,11 @@ body::-webkit-scrollbar-thumb {
     top: 0;
     background-color: black;
     background-image: url("../img/bg.png");
-    background-repeat: no-repeat;
+
     background-size: 110% 110%;
     /*background-size: cover;*/
     z-index: -1;
-    animation: AnimateBG 50s ease infinite;
+    animation: AnimateBG 75s ease infinite;
 }
 .container{
     width: 1200px;
