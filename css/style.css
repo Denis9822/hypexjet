@@ -726,10 +726,10 @@ footer{
         padding-bottom: 20px;
     }
     .bg_mob{
-        min-height: 725px;
+        min-height:100vh;
     }
     .height_change{
-        min-height: initial;
+        min-height: calc(100vh - 181px);
     }
 }
 @media screen and (max-width: 369px) {
