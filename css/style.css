@@ -726,7 +726,7 @@ footer{
         padding-bottom: 20px;
     }
     .bg_mob{
-        min-height:100vh;
+        min-height:calc(var(--vh, 1vh) * 100);
     }
     .height_change{
         min-height: calc(calc(var(--vh, 1vh) * 100) - 181px);
