@@ -729,7 +729,7 @@ footer{
         min-height:100vh;
     }
     .height_change{
-        min-height: calc(100vh - 181px);
+        min-height: calc(calc(var(--vh, 1vh) * 100) - 181px);
     }
 }
 @media screen and (max-width: 369px) {
