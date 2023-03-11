@@ -50,7 +50,7 @@ body::-webkit-scrollbar-thumb {
     height: auto;
 }
 .height_change{
-    min-height: calc(100vh - 180px);
+    min-height: calc(100vh - 175px);
 }
 .start_play
 {
