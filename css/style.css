@@ -89,7 +89,84 @@ a:hover{
 .text_word1{
     color: #A75AFF;
 }
+header{
+    position: relative;
+}
+.menu{
+    width: 30px;
+    height: 25px;
+    position: absolute;
+    right: 1px;
+    top: 10px;
+}
+.menu img:hover{
+    transition: 0.5s;
+    opacity:0.7;
+}
+.menu img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.menu_wrap{
+    background-color: #0A000F;
+    padding: 15px;
+    border-radius: 20px;
+    width: 300px;
+    position: relative;
+    right: 270px;
+    top: 20px;
+    z-index: 111;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+.menu_show{
+}
+.policy{
+ height: calc(calc(var(--vh, 1vh) * 100) - 350px);
+    overflow-y: auto;
+    padding-right: 30px;
 
+    background-color: rgba(10,0,15,0.5);
+    padding: 30px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.25);
+}
+.policy::-webkit-scrollbar {
+    width: 10px;
+}
+
+.policy::-webkit-scrollbar-track {
+    background: #030003;
+}
+
+.policy::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.menu_wrap_title{
+    color: #A75AFF;
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 7px;
+}
+.mobile-sidebar-info{
+padding: 10px;
+    background-color: #8B3FFD;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mobile-sidebar-info img{
+    width: 10px;
+    height: auto;
+}
+.menu_wrap_items{
+}
 .text_info{
     margin-top: 40px;
 }
@@ -736,6 +813,26 @@ footer{
     }
     .height_change{
         min-height: calc(calc(var(--vh, 1vh) * 100) - 155px);
+    }
+}
+@media screen and (max-width: 766px) {
+    .policy{
+        height: calc(calc(var(--vh, 1vh) * 100) - 250px);
+        padding: 10px;
+    }
+    .menu{
+        width: 25px;
+    }
+    .mobile-sidebar-info{
+        font-size: 12px;
+    }
+    .menu_wrap_title{
+        font-size: 17px;
+        margin-bottom: 14px;
+    }
+    .menu_wrap{
+        padding-bottom: 8px;
+        top: 10px;
     }
 }
 @media screen and (max-width: 369px) {
