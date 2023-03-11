@@ -50,7 +50,7 @@ body::-webkit-scrollbar-thumb {
     height: auto;
 }
 .height_change{
-    min-height: calc(100vh - 206px);
+    min-height: calc(100vh - 180px);
 }
 .start_play
 {
@@ -753,6 +753,6 @@ footer{
 
 @media (min-width: 900px) and (max-height: 890px) {
     .bg{
-        height: 950px;
+        height: 900px;
     }
 }
