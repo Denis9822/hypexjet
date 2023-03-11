@@ -820,7 +820,7 @@ footer{
         font-size: 20px;
     }
     .policy{
-        height: calc(calc(var(--vh, 1vh) * 100) - 250px);
+        height: calc(calc(var(--vh, 1vh) * 100) - 242px);
         padding: 10px;
     }
     .menu{
