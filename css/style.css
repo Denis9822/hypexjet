@@ -590,6 +590,12 @@ footer{
         width: 200px;
         height: auto;
     }
+    .height_change{
+        min-height: calc(calc(var(--vh, 1vh) * 100) - 275px);
+    }
+    .bg{
+        min-height: 950px;
+    }
 }
 @media screen and (max-width: 766px) {
     .dude_img {
