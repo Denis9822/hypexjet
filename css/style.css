@@ -514,8 +514,8 @@ footer{
 @media screen and (max-width: 1200px) {
     .container {
         width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 35px;
+        padding-right: 35px;
     }
     .step_num{
         font-size: 80px;
@@ -541,6 +541,7 @@ footer{
     }
 }
 @media screen and (max-width: 1050px) {
+
     .steps{
         flex-wrap: wrap;
         justify-content: space-evenly;
@@ -603,6 +604,9 @@ footer{
         .bg{
             min-height: 100%;
         }
+        .start_play{
+            margin-top: 20px;
+        }
         .height_change{
             min-height: calc(calc(var(--vh, 1vh) * 100) - 201px);
         }
@@ -611,6 +615,10 @@ footer{
 @media (min-width: 766px) and (max-width: 910px)  {
     .height_change{
         min-height: calc(calc(var(--vh, 1vh) * 100) - 271px);
+    }
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
     }
 }
 
