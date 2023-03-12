@@ -630,6 +630,13 @@ footer{
         margin-right: 0;
     }
 }
+@media (max-width: 670px)
+{
+    .bg {
+        min-height: 1050px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .dude_img {
         height: 300px;
