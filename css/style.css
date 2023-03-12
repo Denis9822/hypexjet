@@ -512,6 +512,9 @@ footer{
 }
 
 @media screen and (max-width: 1200px) {
+    .bg{
+        animation: AnimateBG 200s ease infinite;
+    }
     .container {
         width: 100%;
         padding-left: 35px;
@@ -557,7 +560,7 @@ footer{
     }
     .bg{
         background-size: cover;
-        animation: none;
+        /*animation: none;*/
     }
 
 }
@@ -638,6 +641,9 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
+    /*.bg_mob{*/
+    /*    animation: AnimateBG 75s ease infinite;*/
+    /*}*/
     .dude_img {
         height: 300px;
     }
@@ -659,9 +665,9 @@ footer{
         background-color: black;
         background-image: url("../img/bg_mob.png");
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 110% 110%;
         z-index: -1;
-
+        animation: AnimateBG 75s ease infinite;
     }
 
     .logo {
