@@ -577,6 +577,9 @@ footer{
         bottom: -275px;
         left: 3px;
     }
+    .steps{
+        margin-top: 65px;
+    }
     .text_info{
         width: 75%;
     }
