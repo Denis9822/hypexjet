@@ -621,7 +621,15 @@ footer{
         padding-right: 15px;
     }
 }
-
+@media (max-width: 750px)
+{
+    .steps{
+        flex-direction: column;
+    }
+    .step1{
+        margin-right: 0;
+    }
+}
 @media screen and (max-width: 600px) {
     .dude_img {
         height: 300px;
