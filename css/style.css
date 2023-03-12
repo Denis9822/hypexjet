@@ -558,6 +558,7 @@ footer{
         background-size: cover;
         animation: none;
     }
+
 }
 @media (min-width: 766px) and (max-width: 1024px) {
 
@@ -592,10 +593,10 @@ footer{
         height: auto;
     }
     .height_change{
-        min-height: calc(calc(var(--vh, 1vh) * 100) - 275px);
+        min-height: calc(calc(var(--vh, 1vh) * 100) - 218px);
     }
     .bg{
-        min-height: 950px;
+        min-height: 1000px;
     }
     @media (min-height: 1190px)
     {
@@ -604,6 +605,12 @@ footer{
         }
     }
 }
+@media (min-width: 766px) and (max-width: 910px)  {
+    .height_change{
+        min-height: calc(calc(var(--vh, 1vh) * 100) - 271px);
+    }
+}
+
 @media screen and (max-width: 766px) {
     .dude_img {
         height: 300px;
