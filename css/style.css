@@ -559,7 +559,36 @@ footer{
         animation: none;
     }
 }
-@media screen and (max-width: 920px) {
+@media (min-width: 766px) and (max-width: 920px) {
+    .dude_img{
+        height: 350px;
+    }
+    .dude_i{
+        width: 550px;
+        height: auto;
+    }
+    .dude_wrap{
+        left: initial;
+        right: -66px;
+        margin-top: 0;
+        top: -33px;
+    }
+    .dude_fire{
+        bottom: -275px;
+        left: 3px;
+    }
+    .text_info{
+        width: 75%;
+    }
+    .text{
+        margin-top: 30px;
+    }
+    .dude_fire img{
+        width: 200px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 766px) {
     .dude_img {
         height: 300px;
     }
