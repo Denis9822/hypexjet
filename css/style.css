@@ -559,7 +559,8 @@ footer{
         animation: none;
     }
 }
-@media (min-width: 766px) and (max-width: 920px) {
+@media (min-width: 766px) and (max-width: 1024px) {
+
     .dude_img{
         height: 350px;
     }
@@ -595,6 +596,12 @@ footer{
     }
     .bg{
         min-height: 950px;
+    }
+    @media (min-height: 1190px)
+    {
+        .bg{
+            min-height: 100%;
+        }
     }
 }
 @media screen and (max-width: 766px) {
