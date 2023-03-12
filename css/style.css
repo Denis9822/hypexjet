@@ -603,6 +603,9 @@ footer{
         .bg{
             min-height: 100%;
         }
+        .height_change{
+            min-height: calc(calc(var(--vh, 1vh) * 100) - 201px);
+        }
     }
 }
 @media (min-width: 766px) and (max-width: 910px)  {
