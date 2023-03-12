@@ -561,7 +561,7 @@ footer{
     }
 
 }
-@media (min-width: 766px) and (max-width: 1024px) {
+@media (min-width: 600px) and (max-width: 1024px) {
 
     .dude_img{
         height: 350px;
@@ -612,7 +612,7 @@ footer{
         }
     }
 }
-@media (min-width: 766px) and (max-width: 910px)  {
+@media (min-width: 600px) and (max-width: 910px)  {
     .height_change{
         min-height: calc(calc(var(--vh, 1vh) * 100) - 271px);
     }
@@ -622,7 +622,7 @@ footer{
     }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (max-width: 600px) {
     .dude_img {
         height: 300px;
     }
