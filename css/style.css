@@ -40,6 +40,13 @@ body::-webkit-scrollbar-thumb {
     width: 1200px;
     margin: 0 auto;
 }
+.dude_i{
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    position: relative;
+    right: 30px;
+}
 .logo{
     width: 264px;
     height: 133px;
@@ -198,7 +205,7 @@ padding: 10px;
 }
 .dude_wrap{
     position: absolute;
-    left: 450px;
+    left: 400px;
     margin-top: 50px;
 
 }
@@ -206,7 +213,7 @@ padding: 10px;
 
 }
 .dude_img{
-    width: 548.35px;
+    width: 580px;
     height: 602.81px;
     position: relative;
 }
@@ -221,20 +228,20 @@ padding: 10px;
     position: absolute;
     width: 399.43px;
     height: 354.5px;
-    left: -160px;
-    top: 220px;
+    left: -120px;
+    top: 250px;
 }
 .line_right{
     position: absolute;
     width: 245.92px;
     height: 326.56px;
-    right: -170px;
-    top: 250px;
+    right: -114px;
+    top: 286px;
 }
 .tg_btns{
     margin-left: auto;
     margin-right: 30px;
-    margin-top: 250px;
+    margin-top: 320px;
 }
 .tg_btn{
     display: flex;
@@ -644,6 +651,11 @@ footer{
     /*.bg_mob{*/
     /*    animation: AnimateBG 75s ease infinite;*/
     /*}*/
+
+    .dude_img img{
+        width: 100%;
+        height: auto;
+    }
     .dude_img {
         height: 300px;
     }
@@ -713,8 +725,8 @@ footer{
     }
     .dude_wrap{
         left: initial;
-        right: -55px;
-        margin-top: 155px;
+        right: -35px;
+        margin-top: 175px;
     }
     .steps{
         margin-top: 25px;
